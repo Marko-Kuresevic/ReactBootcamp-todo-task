@@ -1,0 +1,22 @@
+.title, .completed, .delete {
+    width: 500px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 15px;
+}
+
+.completed {
+    width: 100px;
+    text-transform: uppercase;
+}
+
+.delete {
+    width: 70px;
+    padding: 0px;
+    background-color: rgb(207, 174, 174);
+    color: brown;
+    border: none;
+    font-size: 45px;
+    font-weight: bold;
+    cursor: pointer;
+}

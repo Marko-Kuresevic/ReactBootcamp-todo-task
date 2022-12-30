@@ -1,0 +1,26 @@
+.fetchDataBtn, .logOutBtn {
+  background-color: brown;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin: 25px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.logOutBtn {
+  position: absolute;
+  right: 0;
+  background-color: chocolate;
+}
+
+.fetchDataBtn:hover,
+.fetchDataBtn:active {
+  background: rgb(109, 19, 19);
+}
+
+.logOutBtn:hover,
+.logOutBtn:active {
+  background: rgb(143, 67, 13);
+}
